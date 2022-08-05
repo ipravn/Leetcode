@@ -1,5 +1,6 @@
 public class Solution {
     public int[] SortArray(int[] nums) {
+        // Using Insertion Sort
         int temp = 0;
       for (int i = 0; i < nums.Length - 1; i++)
       {
